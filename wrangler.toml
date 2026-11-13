@@ -1,0 +1,10 @@
+name = "nova"
+main = "src/worker.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+# Jangan taruh API key di sini. Pakai secret:
+# wrangler secret put GROQ_API_KEY
+
+# Model Groq yang dipakai
+GROQ_MODEL = "llama-3.3-70b-versatile"
